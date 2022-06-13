@@ -1,6 +1,6 @@
 # useR 2022 Docker for R Users Workshop
 
-WIP...
+![](https://img.shields.io/badge/status-work%20in%20progress-yellow)
 
 Materials for **Docker for R Users** workshop at the UseR 2022 conference. 
 
