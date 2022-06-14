@@ -42,6 +42,3 @@ Materials for **Docker for R Users** workshop at the UseR 2022 conference.
    * Rstudio
    * VScode
 * Summary and Q&A [15 mins]
-
-
-
