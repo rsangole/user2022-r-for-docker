@@ -1,0 +1,12 @@
+# Using ubuntu:18.04 base image
+# Installing base R version 4.0.0 with minimum requirements
+# Code: https://github.com/RamiKrispin/dockerfiles/blob/main/r-base-4/Dockerfile
+# Docker Hub: https://hub.docker.com/r/rkrispin/baser4/tags
+FROM rkrispin/baser:v4.2.0
+
+LABEL maintainers="Rami Krispin <rami.krispin@gmail.com>, Rahul Sangole <rahul.sangole@gmail.com>"
+
+RUN mkdir pkgs
+COPY *.R pkgs/
+
+RUN Rscript pkgs/install_packages.R
