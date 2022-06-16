@@ -1,0 +1,28 @@
+Package: package.template
+Type: Package
+Title: Example for R package with Docker workflow for the useR! 2022 Docker for R users workshop
+Version: 0.1.0
+Authors@R: c(person(given = "Rami", 
+                    family ="Krispin", 
+                    email = "rami.krispin@gmail.com",
+                    role = c("aut", "cre")),
+             person(given = "Rahul",
+                    family = "Sangole",
+                    role = c("aut", "cre"),
+                    email = "rahul.sangole@gmail.com"))
+Maintainer: Rami Krispin <rami.krispin@gmail.com>
+Description: The package provides an example to integration of Docker with R package development.
+    That includes setting RStudio server with Docker and integration with Github Actions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+  R (>= 3.0.2)
+Suggests:
+    dplyr,
+    knitr,
+    plotly,
+    ggplot,
+    rmarkdown,
+    testthat (>= 2.1.0)
+RoxygenNote: 7.1.2
