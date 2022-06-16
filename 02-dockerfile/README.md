@@ -1,0 +1,10 @@
+* FROM
+* ARG
+* ENV
+* LABEL
+* RUN
+* COPY
+* EXPOSE
+* VOLUME
+* CMD
+* EXPOSE
