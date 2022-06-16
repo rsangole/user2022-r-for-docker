@@ -1,0 +1,1 @@
+Show example of `install2.r`
