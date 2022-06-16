@@ -21,4 +21,10 @@ Docker should first download the image `docker/getting-started` and then run a c
 
 - Ensure Docker Desktop is installed and running using the instructions above
 - Make a clone of this repository to your machine
+- Pre-downloading a few useful images listed below
 - Grab a cup of coffee
+
+```sh
+docker pull r-base:latest
+docker pull rocker/rstudio:latest
+```
