@@ -6,6 +6,7 @@
 
 - ctop
 - lazydocker
+- tldr
 
 # Useful Tutorials
 
