@@ -1,0 +1,1 @@
+docker build . -t docker_for_r/package_example_simple:v1.0

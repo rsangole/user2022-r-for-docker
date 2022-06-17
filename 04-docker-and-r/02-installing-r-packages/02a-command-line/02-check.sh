@@ -1,0 +1,1 @@
+ docker run --rm docker_for_r/package_example_simple:v1.0 Rscript -e 'packageVersion("cli"); packageVersion("txtplot")'
