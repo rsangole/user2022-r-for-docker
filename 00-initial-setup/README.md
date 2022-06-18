@@ -32,7 +32,7 @@ The alpha numeric printed is the container-id for the container spun up.
 - Ensure Docker Desktop is installed and running using the instructions above
 - Make a clone of this repository to your machine
 - Download a few useful images listed below to save time during the workshop
-- 
+
 ```sh
 docker pull rocker/r-ver:4.2.0
 docker pull rocker/rstudio:4.2.0
