@@ -1,5 +1,3 @@
-‘/usr/local/lib/R/site-library'
-
 # `renv` Install - Install packages when Docker container is run
 
 This approach uses a local shared cache can highly speed up the Docker build process across all Docker builds. This tutorial is a bit more involved and requires more orchestration than the others.
