@@ -1,0 +1,1 @@
+docker build . -t docker_for_r/package_example_renv_1:v1.0
