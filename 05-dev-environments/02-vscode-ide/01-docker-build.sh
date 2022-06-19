@@ -1,0 +1,1 @@
+docker build . -t hatmatrix/r_vscode:v1.0

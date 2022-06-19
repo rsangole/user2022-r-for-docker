@@ -1,0 +1,53 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/docker-existing-docker-compose
+// If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml.
+{
+	// Use any name you like
+	"name": "Project Container",
+	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
+	// The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	// The 'service' property is the name of the service for the container that VS Code should
+	// use. Update this value and .devcontainer/docker-compose.yml to the real service name.
+	"service": "rstudio",
+	// The optional 'workspaceFolder' property is the path VS Code should open by default when
+	// connected. This is typically a file mount in .devcontainer/docker-compose.yml
+	"workspaceFolder": "/home/",
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.automationShell.linux": "/bin/bash"
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-azuretools.vscode-docker", // Makes it easy to create, manage, and debug containerized applications
+		"mhutchie.git-graph", // View a Git Graph of your repository, and perform Git actions from the graph		
+		"eamodio.gitlens", // Visualize code authorship at a glance via Git blame annotations and CodeLens
+		"yzhang.markdown-all-in-one", // All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+		"tomoki1207.pdf", // Display pdf file in VSCode
+		"hediet.vscode-drawio", // This unofficial extension integrates Draw.io into VSCode
+		"janisdd.vscode-edit-csv", // Edit CSV files with a table ui
+		"REditorSupport.r",
+		"REditorSupport.r-lsp", // R Extension for Visual Studio Code
+		"RDebugger.r-debugger", // R Debugger for VS Code
+		"christian-kohler.path-intellisense", // Visual Studio Code plugin that autocompletes filenames
+		"ionutvmi.path-autocomplete",
+		"wwm.better-align", // Align code without selecting them first.
+		"ms-ossdata.vscode-postgresql", // Develop Postgres everywhere
+		"mtxr.sqltools" // Database management done right. Connection explorer, query runner, intellisense, bookmarks, query history.
+		// "vscodevim.vim" // Vim emulation
+		// "ecmel.vscode-html-css", //CSS Intellisense for HTML
+	],
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Uncomment the next line if you want start specific services in your Docker Compose config.
+	// "runServices": [],
+	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
+	// "shutdownAction": "none",
+	// Uncomment the next line to run commands after the container is created - for example installing curl.
+	"postCreateCommand": "radian"
+	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}
