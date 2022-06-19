@@ -1,6 +1,9 @@
 # Useful Links
 
+- [The Rocker Project](https://www.rocker-project.org)
+- [Docker Docs - Getting Started](https://docs.docker.com/get-started/)
 - [`{plumber}`](https://www.rplumber.io/index.html) 
+- [`{renv}`](https://rstudio.github.io/renv/)
 
 # Useful Tools
 
