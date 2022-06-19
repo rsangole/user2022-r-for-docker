@@ -36,6 +36,7 @@ The alpha numeric printed is the container-id for the container spun up.
 ```sh
 docker pull rocker/r-ver:4.2.0
 docker pull rocker/rstudio:4.2.0
+docker pull rstudio/plumber
 ```
 
 - Grab a cup of coffee
