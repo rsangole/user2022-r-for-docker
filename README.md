@@ -6,7 +6,7 @@
 
 Materials for **Docker for R Users** workshop at the useR 2022 conference. 
 
-**Time:** Monday, 20 June 2022, 4:00 - 7:30am CDT
+**Time:** Monday, 20 June 2022, 4:00 - 7:30am CDT / 2:00 - 5:30am PCT
 
 **More info:** https://user2022.r-project.org/program/tutorials/#docker-for-r-users
 
