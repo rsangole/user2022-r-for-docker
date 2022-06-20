@@ -36,14 +36,14 @@ Materials for **Docker for R Users** workshop at the UseR 2022 conference.
   * docker-compose commands
   * Q & A
 * Break [10 min] : 4:00 - 4:10
-* Docker + R [45 min] : 4:10 - 4:55
+* Docker + R Basics [45 min] : 4:10 - 4:55
    * Introduction to Rocker
    * Installing packages
    * Develop in Docker
    * Deploy Models in Docker
    * Deploy Shiny in Docker
-* Development Environment [20 min] : 4:55 - 5:15
+* Intermediate Concepts [20 min] : 4:55 - 5:15
    * Package Development with GitHub Actions [15 min]
-   * VS Code [5 min]
+   * VS Code, R and Docker [10 min]
    * _Stretch Goal - Postgres & R_
 * Summary and Q & A [15 mins] : 5:15 - 5:30
