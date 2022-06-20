@@ -6,6 +6,7 @@ services:
       - "8787:8787"
     environment:
       DISABLE_AUTH: "true"
+      NEW_VAR: "foo"
     volumes:
       - type: "bind"
         source: "/Users/rahul/github/github.com/user2022-r-for-docker/03-docker-cli" 
