@@ -4,6 +4,7 @@
 - [Docker Docs - Getting Started](https://docs.docker.com/get-started/)
 - [`{plumber}`](https://www.rplumber.io/index.html) 
 - [`{renv}`](https://rstudio.github.io/renv/)
+- [How to setup and push your images to Docker Hub](https://docs.docker.com/get-started/04_sharing_app/)
 
 # Useful Tools
 
