@@ -1,10 +1,10 @@
 # useR 2022 Docker for R Users Workshop
 
-![](https://img.shields.io/badge/status-work%20in%20progress-yellow)
+![](https://img.shields.io/badge/status-Complete-green)
 
 ![](.img/docker_R.001.jpeg)
 
-Materials for **Docker for R Users** workshop at the UseR 2022 conference. 
+Materials for **Docker for R Users** workshop at the useR 2022 conference. 
 
 **Time:** Monday, 20 June 2022, 4:00 - 7:30am CDT
 
