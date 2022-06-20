@@ -15,10 +15,10 @@ docker image ls
 #   Tag Schema: {namespace}/{image_name}:{tag}
 # 		docker_for_r:v1.0
 #		your_orgs_docker_hub.com/project_name/shiny_app:prod-v2.0.5
-docker build --tag docker_for_r: .
+docker build --tag docker_for_r/simple:test .
 
 # - Build a docker image using a specific Dockerfile:
-docker build --file Dockerfile -t docker_for_r/simple:test.
+docker build --file Dockerfile -t docker_for_r/simple:test .
 
 # docker image
 # Manage Docker images.
