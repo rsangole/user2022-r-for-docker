@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  my_rstudio:
+    image: rocker/rstudio:4.2.0
+    ports:
+      - "8787:8787"
+    environment:
+      DISABLE_AUTH: "true"
+    volumes:
+      - type: "bind"
+        source: "/Users/rahul/github/github.com/user2022-r-for-docker/03-docker-cli" 
+        target: "/home/rstudio"

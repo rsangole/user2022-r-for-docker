@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  my_shiny_app:
+    image: docker_for_r/shiny_deployment:v1.0
+    ports:
+      - "3838:3838"

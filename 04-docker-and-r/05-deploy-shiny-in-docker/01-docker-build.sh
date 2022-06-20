@@ -1,1 +1,1 @@
-docker build . -t docker_for_r/shiny_deployment:v1.0
+docker build --progress=plain . -t docker_for_r/shiny_deployment:v1.0

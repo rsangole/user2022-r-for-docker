@@ -1,9 +1,11 @@
-* docker build
-* docker run
-* docker ps
-* docker exep
-* docker image inspect
-* docker compose
+# Docker CLI
 
-
-Let's make sure we document and teach all the common arguments to these functions
+* `docker build`
+* `docker run`
+* `docker ps`
+* `docker exep`
+* `docker image inspect`
+* `docker compose`
+  * `docker-compose.yml`
+  * `docker-compose up`
+  * `docker-compose down`
