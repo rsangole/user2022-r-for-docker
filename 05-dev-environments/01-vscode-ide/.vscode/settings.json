@@ -1,0 +1,58 @@
+{
+	// R setup
+	"r.alwaysUseActiveTerminal": false, // depending on your workflow
+	"r.rterm.linux": "/usr/local/bin/radian",
+	"r.rterm.mac": " /usr/local/bin/radian",
+	"r.plot.useHttpgd": true,
+	"[r]": {
+		"editor.defaultFormatter": "REditorSupport.r",
+		"editor.formatOnSave": true,
+		"editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?" // Treat names.like.this as one word for selection.
+	},
+	"[rmd]": {
+		"editor.defaultFormatter": "REditorSupport.r",
+		"editor.formatOnSave": true
+	},
+	"files.associations": { // required
+		"*.rmd": "markdown",
+		"*.Rmd": "rmd"
+	},
+	"r.bracketedPaste": true,
+	"r.lsp.enabled": true,
+	"r.lsp.diagnostics": false,
+	"r.session.levelOfObjectDetail": "Normal",
+	"r.session.viewers.viewColumn": {
+		"plot": "Three",
+		"browser": "Three",
+		"viewer": "Two",
+		"pageViewer": "Active",
+		"view": "Three",
+		"helpPanel": "Three"
+	},
+	// Python
+	// "python.defaultInterpreterPath": "/usr/local/bin/python3", // Check your python path, if exists in your Docker image
+	// "jupyter.interactiveWindowMode": "perFile",
+	// VSCode setup
+	"path-autocomplete.pathMappings": {
+		"/": "/",
+		"./": "${folder}"
+	},
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"search.showLineNumbers": true,
+	// Additional Optional Settings
+	// "workbench.startupEditor":"none",
+	// "workbench.iconTheme": "VSCode Great Icons", // optional
+	// "workbench.colorTheme": "Visual Studio Light", // optional
+	// "diffEditor.ignoreTrimWhitespace": false, // optional
+	// "files.autoSave": "off", // optional
+	// "explorer.confirmDragAndDrop": false,
+	// "explorer.confirmDelete": false, // optional
+	// "vim.highlightedyank.enable": true,
+	// "vim.smartRelativeLine": true,
+	// "vsicons.dontShowNewVersionMessage": true,
+	// "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+}

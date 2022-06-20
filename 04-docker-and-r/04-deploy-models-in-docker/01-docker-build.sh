@@ -1,0 +1,1 @@
+docker build . -t docker_for_r/model_deployment:v1.0

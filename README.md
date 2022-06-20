@@ -9,22 +9,17 @@ Materials for **Docker for R Users** workshop at the UseR 2022 conference.
 **More info:** https://user2022.r-project.org/program/tutorials/#docker-for-r-users
 
 ### Agenda
+
 * Introduction [30+15 mins]
-    * Background/motivation
-    * Reproducibility 
-    * Workflow
-    * Use cases
-    * Installation
-* Dockerfile commends [30 + 15 mins]
-   * FROM (Docker Hub)
-   * ARG
-   * ENV
-   * RUN
-   * COPY
-   * EXPOSE
-   * VOLUME
-   * CMD
-* Docker cli [30 + 15 mins]
+    * Brief Installation & Testing Review 
+    * Brief Docker Desktop Settings
+    * Motivation For Docker & Usecases
+    * Docker Workflow
+* About the Dockerfile [30 + 15 mins]
+   * Overview
+   * Core commands
+   * Image Layers
+* Docker CLI [30 + 15 mins] <<-- TBD : VScode --> Slides
    * docker build
    * docker run
    * docker ps
