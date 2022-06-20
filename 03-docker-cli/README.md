@@ -3,7 +3,7 @@
 * `docker build`
 * `docker run`
 * `docker ps`
-* `docker exep`
+* `docker exec`
 * `docker image inspect`
 * `docker compose`
   * `docker-compose.yml`
