@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/badge/status-work%20in%20progress-yellow)
 
+![](.img/docker_R.001.jpeg)
+
 Materials for **Docker for R Users** workshop at the UseR 2022 conference. 
 
 **Time:** Monday, 20 June 2022, 4:00 - 7:30am CDT
