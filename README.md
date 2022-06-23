@@ -4,6 +4,9 @@
 
 ![](.img/docker_R.001.jpeg)
 
+**Presentation Slides** : [Link](https://github.com/rsangole/user2022-r-for-docker/blob/main/Introduction%20to%20Docker%20for%20R%20users.pdf)
+**Video**: To be updated once useR uploads to YouTube
+
 Materials for **Docker for R Users** workshop at the useR 2022 conference. 
 
 **Time:** Monday, 20 June 2022, 4:00 - 7:30am CDT / 2:00 - 5:30am PCT
